@@ -7,11 +7,10 @@ else{
 }
 // Verificar número de peças cadastradas.
 let NumeroPecas = 10
-if(NumeroPecas >= 10) {
-    console.log("Número menor ou igual que 10, podemos cadastrar")}
+if(NumeroPecas < 10) {
+    console.log("Número menor que 10, podemos cadastrar")}
 else{
-    console.log("Número maior que 10, não podemos cadastrar")
-}
+    console.log("Número maior que 10, não podemos cadastrar")}
 
 // Verificar o comprimento do nome da peça. 
 let comprimentoPeca = 'disco de freio'
